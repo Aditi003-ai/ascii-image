@@ -38,5 +38,4 @@ Generates both .txt and .png outputs
 Easily customizable characters and scale
 Lightweight and beginner-friendly code
 
-https://aditi003-ai.github.io/ascii-image/
 
