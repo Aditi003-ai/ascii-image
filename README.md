@@ -29,6 +29,7 @@ This project converts a color image in PPM (P3) format into ASCII art using raw 
 
 ## Author
 Aditi Verma
+
 Computer Science Student.
 
 
