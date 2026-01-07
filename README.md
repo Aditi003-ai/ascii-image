@@ -5,23 +5,35 @@ The final output is a text-based image that closely resembles the original input
 
 ## Objective:
 -To understand the internal structure of digital images and pixel representation
+
 -To work with images in PPM (P3) format using raw pixel data
+
 -To convert RGB color images into grayscale intensity values
+
 -To apply gamma correction to enhance contrast in ASCII output
+
 -To map pixel brightness levels to appropriate ASCII characters
+
 -To generate a text-based ASCII representation of an image using Python
+
 -To strengthen knowledge of basic image processing and file handling concepts
 
 ## Project Structure:
 ASCII-Image-Generator-
+
  bill_clinton_4.ppm    # Input image (PPM P3 format)
+ 
  ascii_generator.py    # Main Python script
+ 
  ascii_output.txt      # Generated ASCII art output
+ 
  README.md             # Project documentation
  
  ## Technologies Used:
 Programming Language: Python
+
 Image Format: PPM (P3 – ASCII format)
+
 Output Format: Text file (.txt)
 
 ## Key Features:
