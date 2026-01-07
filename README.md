@@ -21,13 +21,13 @@ The final output is a text-based image that closely resembles the original input
 ## Project Structure:
 ASCII-Image-Generator-
 
- bill_clinton_4.ppm    # Input image (PPM P3 format)
+ bill_clinton_4.ppm          # Input image (PPM P3 format)
  
- ascii_generator.py    # Main Python script
+ ascii_generator.py          # Main Python script
  
- ascii_output.txt      # Generated ASCII art output
+ ascii_output.txt            # Generated ASCII art output
  
- README.md             # Project documentation
+ README.md                   # Project documentation
  
  ## Technologies Used:
 Programming Language: Python
