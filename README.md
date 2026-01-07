@@ -1,40 +1,34 @@
 # Ascii-image
-ASCII Image Generator using Python :
--Project Overview
-The ASCII Image Generator is a Python-based image processing project that transforms a standard digital image into ASCII art.
-ASCII art represents images using characters such as @, %, $, *, +, =, :, and . arranged in a grid-like structure. Darker areas of the image are represented by denser characters, while lighter areas use simpler characters.
-
-This project demonstrates fundamental concepts of:
-Image processing
-Pixel manipulation
-Grayscale conversion
-Character mapping
-File handling in Python
-
-The program generates:
-A text-based ASCII file
-An image-based ASCII rendering
+This project converts a color image stored in PPM (P3) format into an ASCII art representation using Python. Instead of displaying images using pixels, the program recreates the image using a set of ASCII characters whose visual density represents different brightness levels.
+The program works directly with raw pixel data, converting RGB values into grayscale intensity and applying gamma correction to improve visual contrast. To maintain proper proportions in text form, pixels are grouped into small blocks, and the average brightness of each block is mapped to a corresponding ASCII character arranged from darkest to lightest. 
+The final output is a text-based image that closely resembles the original input image. This project demonstrates how basic image processing techniques and simple mathematical operations can be used to create creative and meaningful visual results without relying on advanced image-processing libraries.
 
 ## Objective:
-The main goal of this project is to:
-
-Understand how images are represented as pixels
-Convert RGB images into grayscale
-Map numerical pixel intensity values to characters
-Produce artistic and readable ASCII outputs
-This project is ideal for beginners learning Python, students exploring image processing, and creative coding enthusiasts.
+-To understand the internal structure of digital images and pixel representation
+-To work with images in PPM (P3) format using raw pixel data
+-To convert RGB color images into grayscale intensity values
+-To apply gamma correction to enhance contrast in ASCII output
+-To map pixel brightness levels to appropriate ASCII characters
+-To generate a text-based ASCII representation of an image using Python
+-To strengthen knowledge of basic image processing and file handling concepts
 
 ## Project Structure:
-billclinton.png      # Input image
-output.jpg           # ASCII text output         
-project.py           # Python source code
-README.md            # Project documentation
+ASCII-Image-Generator-
+ bill_clinton_4.ppm    # Input image (PPM P3 format)
+ ascii_generator.py    # Main Python script
+ ascii_output.txt      # Generated ASCII art output
+ README.md             # Project documentation
+ 
+ ## Technologies Used:
+Programming Language: Python
+Image Format: PPM (P3 – ASCII format)
+Output Format: Text file (.txt)
 
 ## Key Features:
-Converts any RGB image into ASCII art
-Uses brightness-based character mapping
-Maintains aspect ratio during resizing
-Easily customizable characters and scale
-Lightweight and beginner-friendly code
+This project converts a color image in PPM (P3) format into ASCII art using raw RGB pixel data without external image-processing libraries. It applies grayscale conversion and gamma correction to improve visual contrast, while block-based sampling is used to maintain proper image proportions. Pixel brightness is mapped to ASCII characters arranged from darkest to lightest, producing a clear text-based image that can be viewed in the terminal or saved as a text file, with easy customization options for characters, block size, and gamma value.
+
+## Author
+Aditi Verma
+Computer Science Student.
 
 
