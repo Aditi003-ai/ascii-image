@@ -4,19 +4,19 @@ The program works directly with raw pixel data, converting RGB values into grays
 The final output is a text-based image that closely resembles the original input image. This project demonstrates how basic image processing techniques and simple mathematical operations can be used to create creative and meaningful visual results without relying on advanced image-processing libraries.
 
 ## Objective:
--To understand the internal structure of digital images and pixel representation
+-To understand the internal structure of digital images and pixel representation.
 
--To work with images in PPM (P3) format using raw pixel data
+-To work with images in PPM (P3) format using raw pixel data.
 
--To convert RGB color images into grayscale intensity values
+-To convert RGB color images into grayscale intensity values.
 
--To apply gamma correction to enhance contrast in ASCII output
+-To apply gamma correction to enhance contrast in ASCII output.
 
--To map pixel brightness levels to appropriate ASCII characters
+-To map pixel brightness levels to appropriate ASCII characters.
 
--To generate a text-based ASCII representation of an image using Python
+-To generate a text-based ASCII representation of an image using Python.
 
--To strengthen knowledge of basic image processing and file handling concepts
+-To strengthen knowledge of basic image processing and file handling concepts.
 
 ## Project Structure:
 ASCII-Image-Generator-
